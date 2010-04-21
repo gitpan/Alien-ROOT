@@ -97,6 +97,14 @@ METHODS
 
       my $dir = $aroot->etcdir;
 
+  $aroot->private_root
+    This method returns true if the copy of ROOT that is being used was
+    installed by "Alien::ROOT" and is considered private.
+
+    Example code:
+
+      my $is_private = $aroot->private_root;
+
 AUTHOR
     Steffen Mueller <smueller@cpan.org>
 
