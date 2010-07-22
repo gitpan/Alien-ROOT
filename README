@@ -9,6 +9,11 @@ SYNOPSIS
 DESCRIPTION
     Installs or detects CERN's ROOT library.
 
+    This version of "Alien::ROOT" will download and install "ROOT v5.26.0c"
+    if necessary. If an existing (and compatible) installation of ROOT was
+    detected, the module will not download/compile/install a new version of
+    ROOT.
+
 METHODS
   Alien::ROOT->new
     Creates a new "Alien::ROOT" object, which essentially just has a few

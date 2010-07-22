@@ -26,7 +26,7 @@ no_index:
 provides:
   Alien::ROOT:
     file: lib/Alien/ROOT.pm
-    version: v5.26.0.1
+    version: v5.26.0.2
 requires:
   ExtUtils::MakeMaker: 0
   File::Path: 0
@@ -38,4 +38,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-ROOT
   license: http://www.opensource.org/licenses/gpl-2.0.php
   repository: git://github.com/tsee/ROOT.git
-version: v5.26.0.1
+version: v5.26.0.2
