@@ -10,7 +10,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.36
 dynamic_config: 1
-generated_by: 'Module::Build version 0.3605'
+generated_by: 'Module::Build version 0.3607'
 license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,7 +26,7 @@ no_index:
 provides:
   Alien::ROOT:
     file: lib/Alien/ROOT.pm
-    version: v5.26.0.2
+    version: v5.26.0.3
 requires:
   ExtUtils::MakeMaker: 0
   File::Path: 0
@@ -38,4 +38,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-ROOT
   license: http://www.opensource.org/licenses/gpl-2.0.php
   repository: git://github.com/tsee/ROOT.git
-version: v5.26.0.2
+version: v5.26.0.3
