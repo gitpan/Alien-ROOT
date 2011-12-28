@@ -10,7 +10,7 @@ Alien::ROOT - Utility package to install and locate CERN's ROOT library
 
 =cut
 
-our $VERSION = '5.32.0.1';
+our $VERSION = '5.32.0.2';
 $VERSION = eval $VERSION;
 
 =head1 SYNOPSIS
@@ -92,6 +92,19 @@ sub installed {
   Carp::croak('You must call this method as an object') unless ref($self);
 
   return $self->{installed};
+}
+
+=head2 $aroot->run
+
+Sets up the ROOT environment (see C<setup_environment>) and then invokes
+the ROOT shell by simply calling C<root>.
+
+=cut
+
+sub run {
+  my $self = shift;
+  $self->setup_environment;
+  system {'root'} 'root', @_;
 }
 
 =head2 $aroot->setup_environment

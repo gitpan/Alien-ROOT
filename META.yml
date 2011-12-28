@@ -10,7 +10,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,7 +26,7 @@ no_index:
 provides:
   Alien::ROOT:
     file: lib/Alien/ROOT.pm
-    version: v5.32.0.1
+    version: v5.32.0.2
 requires:
   ExtUtils::MakeMaker: 0
   File::Path: 0
@@ -38,4 +38,4 @@ resources:
   license: http://www.opensource.org/licenses/gpl-2.0.php
   repository: git://github.com/tsee/SOOT.git
   x_Ratings: http://cpanratings.perl.org/d/Alien-ROOT
-version: v5.32.0.1
+version: v5.32.0.2

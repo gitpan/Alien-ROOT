@@ -30,6 +30,10 @@ METHODS
 
       print "okay\n" if $aroot->installed;
 
+  $aroot->run
+    Sets up the ROOT environment (see "setup_environment") and then invokes
+    the ROOT shell by simply calling "root".
+
   $aroot->setup_environment
     Sets up the "PATH" and "LD_LIBRARY_PATH" environment variables to point
     at the correct paths for ROOT.
