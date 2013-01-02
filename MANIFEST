@@ -36,6 +36,7 @@ inc/inc_Module-Build/Module/Build/Platform/Windows.pm
 inc/inc_Module-Build/Module/Build/PodParser.pm
 inc/inc_Module-Build/Module/Build/PPMMaker.pm
 inc/inc_Module-Build/Module/Build/Version.pm
+inc/inc_Module-Build/Module/Build/WithXSpp.pm
 inc/inc_Module-Build/Module/Build/YAML.pm
 inc/inc_Module-Load-Conditional/Module/Load/Conditional.pm
 inc/inc_Module-Load/Module/Load.pm
